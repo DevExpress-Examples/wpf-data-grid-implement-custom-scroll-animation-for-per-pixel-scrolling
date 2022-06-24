@@ -3,18 +3,26 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3120)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+# WPF Data Grid - Implement Custom Scroll Animation for Per-Pixel Scrolling
+
+This example shows how to implement custom animation displayed when a user vertically scrolls the [GridControl](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl) (per-pixel scrolling):
+
+1. Set the [TableView.AllowScrollAnimation](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.AllowScrollAnimation) property to `true`.
+2. Set the [TableView.ScrollAnimationMode](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.ScrollAnimationMode) property to `Custom`.
+3. Handle the [TableView.CustomScrollAnimation](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.CustomScrollAnimation) event and specify a custom scroll animation.
+
+![Grid_CustomScrolling](https://user-images.githubusercontent.com/65009440/175501758-9fb2597f-3c39-4103-a964-21b53de0b19c.gif)
+
 <!-- default file list -->
-*Files to look at*:
+
+## Files to look at
 
 * [MainWindow.xaml](./CS/DXGrid_CustomScrollAnimation/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXGrid_CustomScrollAnimation/MainWindow.xaml))
-* **[MainWindow.xaml.cs](./CS/DXGrid_CustomScrollAnimation/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXGrid_CustomScrollAnimation/MainWindow.xaml.vb))**
-* [Products.cs](./CS/DXGrid_CustomScrollAnimation/Products.cs) (VB: [Products.vb](./VB/DXGrid_CustomScrollAnimation/Products.vb))
+* [MainWindow.xaml.cs](./CS/DXGrid_CustomScrollAnimation/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXGrid_CustomScrollAnimation/MainWindow.xaml.vb))
+
 <!-- default file list end -->
-# How to: Implement Custom Scroll Animation for Per-Pixel Scrolling
 
+## Documentation
 
-<p>This example shows how to handle the CustomScrollAnimation event to implement custom animation played when grid data is vertically scrolled (per-pixel scrolling). Note the view's AllowPerPixelScrolling and AllowScrollAnimation options must be enabled.</p>
-
-<br/>
-
-
+* [Per-Pixel Scrolling](http://docs.devexpress.com/WPF/9791/controls-and-libraries/data-grid/paging-and-scrolling/per-pixel-scrolling)
+* [Data Scrolling](http://docs.devexpress.com/WPF/6120/controls-and-libraries/data-grid/paging-and-scrolling/data-scrolling-overview)
