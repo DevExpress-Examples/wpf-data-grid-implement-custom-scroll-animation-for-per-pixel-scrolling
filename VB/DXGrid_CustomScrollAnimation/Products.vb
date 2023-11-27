@@ -1,12 +1,16 @@
-﻿Imports System.Collections.Generic
 Imports System.Collections.ObjectModel
 
 Public Class Product
-    Public Property ProductName() As String
-    Public Property Country() As String
-    Public Property City() As String
-    Public Property UnitPrice() As Double
-    Public Property Quantity() As Integer
+
+    Public Property ProductName As String
+
+    Public Property Country As String
+
+    Public Property City As String
+
+    Public Property UnitPrice As Double
+
+    Public Property Quantity As Integer
 End Class
 
 Public Class ProductList
