@@ -28,7 +28,7 @@ This example shows how to implement a custom animation displayed when a user ver
 * [Per-Pixel Scrolling](http://docs.devexpress.com/WPF/9791/controls-and-libraries/data-grid/paging-and-scrolling/per-pixel-scrolling)
 * [Data Scrolling](http://docs.devexpress.com/WPF/6120/controls-and-libraries/data-grid/paging-and-scrolling/data-scrolling-overview)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-implement-custom-scroll-animation-for-per-pixel-scrolling&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-implement-custom-scroll-animation-for-per-pixel-scrolling&~~~was_helpful=no)
 
